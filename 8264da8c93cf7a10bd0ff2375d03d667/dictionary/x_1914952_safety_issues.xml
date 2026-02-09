@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3e6592409303ba10bd0ff2375d03d60b" label="Issues" max_length="40" name="x_1914952_safety_issues" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Priority" max_length="40" name="priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="high" sequence="1" value="high"/>
+                <element inactive_on_update="false" label="moderate" sequence="2" value="moderate"/>
+                <element inactive_on_update="false" label="low" sequence="3" value="low"/>
+                <element inactive_on_update="false" label="critical" sequence="0" value="critical"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" label="Location" max_length="40" name="location" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Big Island" sequence="2" value="big_island"/>
+                <element inactive_on_update="false" label="Oahu" sequence="0" value="oahu"/>
+                <element inactive_on_update="false" label="Kauai" sequence="3" value="kauai"/>
+                <element inactive_on_update="false" label="Maui" sequence="1" value="maui"/>
+            </choice>
+        </element>
+        <element label="Notes" max_length="40" name="notes" type="html"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded" display="true" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="open" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pending" sequence="1" value="pending"/>
+                <element inactive_on_update="false" label="Open" sequence="0" value="open"/>
+                <element inactive_on_update="false" label="Closed" sequence="3" value="closed"/>
+                <element inactive_on_update="false" label="Working" sequence="2" value="working"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:gs.getUser().lastName" dynamic_default_value="8cfe4b76eb330100d4360c505206fe37" label="Opened by" max_length="40" name="opened_by" type="string" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" label="Category" max_length="40" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Small" sequence="2" value="small"/>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="medium"/>
+                <element inactive_on_update="false" label="Big" sequence="0" value="big"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Due date" max_length="40" name="due_date" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Short description" max_length="69" name="short_description" type="string"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+    </element>
+</database>

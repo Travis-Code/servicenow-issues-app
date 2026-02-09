@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_opened_by" table="x_1914952_safety_1770620391432">
+        <active>true</active>
+        <array>false</array>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=Opened by</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Opened by</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_opened_by</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_1914952_safety_1770620391432</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-09 06:59:53</sys_created_on>
+        <sys_id>c3d49acc93cf7a10bd0ff2375d03d6f2</sys_id>
+        <sys_name>Opened by</sys_name>
+        <sys_package display_value="Safety" source="x_1914952_safety">8264da8c93cf7a10bd0ff2375d03d667</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">8264da8c93cf7a10bd0ff2375d03d667</sys_scope>
+        <sys_update_name>sys_dictionary_x_1914952_safety_1770620391432_u_opened_by</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-09 06:59:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Safety">8264da8c93cf7a10bd0ff2375d03d667</application>
+        <file_path/>
+        <instance_id>32707ccc2b1fe2141c84f9f66e91bf68</instance_id>
+        <instance_name>dev353644</instance_name>
+        <name>sys_dictionary_x_1914952_safety_1770620391432_u_opened_by</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_opened_by" table="x_1914952_safety_1770620391432"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true,import_attribute_name=Opened by</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Opened by</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_opened_by</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_1914952_safety_1770620391432</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-09 06:59:53</sys_created_on><sys_id>c3d49acc93cf7a10bd0ff2375d03d6f2</sys_id><sys_name>Opened by</sys_name><sys_package display_value="Safety" source="x_1914952_safety">8264da8c93cf7a10bd0ff2375d03d667</sys_package><sys_policy/><sys_scope display_value="Safety">8264da8c93cf7a10bd0ff2375d03d667</sys_scope><sys_update_name>sys_dictionary_x_1914952_safety_1770620391432_u_opened_by</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-09 06:59:53</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>384487694</payload_hash>
+        <record_name>Safety 1770620391432.Opened by</record_name>
+        <reverted_from/>
+        <source>8664da8c93cf7a10bd0ff2375d03d670</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-09 06:59:54</sys_created_on>
+        <sys_id>1fd4dacc93cf7a10bd0ff2375d03d654</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c41331c710000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-09 06:59:54</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>5fd4daccf6cf7a10881d4270b0cf7153</update_guid>
+        <update_guid_history>5fd4daccf6cf7a10881d4270b0cf7153:384487694</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-09 07:02:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>52176f2ddafa443eac644ee5f80e2be4</sys_id>
+        <sys_metadata>c3d49acc93cf7a10bd0ff2375d03d6f2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Opened by</sys_name>
+        <sys_package display_value="Safety" source="x_1914952_safety">8264da8c93cf7a10bd0ff2375d03d667</sys_package>
+        <sys_parent display_value="">07d49acc93cf7a10bd0ff2375d03d6d8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Safety">8264da8c93cf7a10bd0ff2375d03d667</sys_scope>
+        <sys_scope_delete display_value="">c546efcb7243412caafbec82e08d7e39</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_1914952_safety_1770620391432_u_opened_by</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_1914952_safety_1770620391432_u_opened_by">1fd4dacc93cf7a10bd0ff2375d03d654</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-09 07:02:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

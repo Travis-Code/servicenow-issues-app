@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="17ee56049343ba10bd0ff2375d03d6cc" sys_domain="global" table="x_1914952_safety_issues" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-09 07:43:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dfee56049343ba10bd0ff2375d03d6d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1914952_safety_issues" name="x_1914952_safety_issues" sys_domain="global" view="Default view">17ee56049343ba10bd0ff2375d03d6cc</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1914952_safety_issues" sys_domain="global" view="Default view">da755e4893cf7a10bd0ff2375d03d6fe</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-09 07:43:52</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-09 07:43:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1bee56049343ba10bd0ff2375d03d6d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1914952_safety_issues" name="x_1914952_safety_issues" sys_domain="global" view="Default view">17ee56049343ba10bd0ff2375d03d6cc</sys_ui_form>
+            <sys_ui_section caption="Details" display_value="Details" name="x_1914952_safety_issues" sys_domain="global" view="Default view">57ee56049343ba10bd0ff2375d03d64e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-09 07:43:52</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1914952_safety_issues</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-09 07:43:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>17ee56049343ba10bd0ff2375d03d6cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1914952_safety_issues</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Safety" source="x_1914952_safety">8264da8c93cf7a10bd0ff2375d03d667</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Safety">8264da8c93cf7a10bd0ff2375d03d667</sys_scope>
+            <sys_update_name>sys_ui_form_sections_17ee56049343ba10bd0ff2375d03d6cc</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-09 07:43:52</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
