@@ -12,6 +12,12 @@ This application provides a complete solution for reporting and tracking safety 
 
 ---
 
+## 🚀 Live Demo
+
+Want to see the app in action? Contact me to schedule a live demo on my ServiceNow Personal Developer Instance.
+
+---
+
 ## 📸 Screenshots
 
 ### App Overview - All Components
@@ -19,12 +25,18 @@ This application provides a complete solution for reporting and tracking safety 
 ![App Overview 2](screenshots/app-overview2.png)
 
 ### Service Catalog - Report a Safety Issue
+Users submit safety issues through this guided form in the Service Catalog.
+
 ![Service Catalog Form](screenshots/service-catalog-form.png)
 
 ### Issues List View
+All submitted issues are tracked in this list view with filtering and sorting capabilities.
+
 ![Issues List](screenshots/issues-list.png)
 
 ### Flow Designer - Issue Assignment Automation
+When a "Big" category issue is created, the flow automatically triggers to update and assign the record.
+
 ![Flow Designer](screenshots/flow-designer.png)
 
 ---
@@ -83,6 +95,16 @@ The "Report a Safety Issue" catalog item includes:
 
 ---
 
+## 🔄 How It Works
+
+1. **User submits** a safety issue through the Service Catalog
+2. **Record is created** in the Issues table with auto-generated number
+3. **Flow triggers** if the category is "Big"
+4. **Issue is assigned** automatically based on flow logic
+5. **Admins manage** issues through the list view, updating state as resolved
+
+---
+
 ## 🛠️ Technologies Used
 
 - App Engine Studio (AES)
@@ -114,7 +136,6 @@ This application was built as part of the **ServiceNow University Associate Appl
 | **App Name** | Safety |
 | **Scope** | `x_1914952_safety` |
 | **Version** | 1.0.0 |
-| **Branch** | `sn_instances/dev353644` |
 
 ---
 
@@ -126,6 +147,12 @@ This project demonstrates hands-on experience with ServiceNow development throug
 - ✅ Ability to build applications using App Engine Studio
 - ✅ Knowledge of development best practices
 - ✅ Commitment to professional development through official training
+
+---
+
+## 📬 Contact
+
+Interested in discussing this project or seeing a live demo? Feel free to reach out!
 
 ---
 
