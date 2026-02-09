@@ -14,6 +14,10 @@ This application provides a complete solution for reporting and tracking safety 
 
 ## 📸 Screenshots
 
+### App Overview - All Components
+![App Overview](screenshots/app-overview.png)
+![App Overview 2](screenshots/app-overview2.png)
+
 ### Service Catalog - Report a Safety Issue
 ![Service Catalog Form](screenshots/service-catalog-form.png)
 
