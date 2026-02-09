@@ -12,12 +12,6 @@ This application provides a complete solution for reporting and tracking safety 
 
 ---
 
-## 🚀 Live Demo
-
-Want to see the app in action? Contact me to schedule a live demo on my ServiceNow Personal Developer Instance.
-
----
-
 ## 📸 Screenshots
 
 ### App Overview - All Components
@@ -147,12 +141,6 @@ This project demonstrates hands-on experience with ServiceNow development throug
 - ✅ Ability to build applications using App Engine Studio
 - ✅ Knowledge of development best practices
 - ✅ Commitment to professional development through official training
-
----
-
-## 📬 Contact
-
-Interested in discussing this project or seeing a live demo? Feel free to reach out!
 
 ---
 
