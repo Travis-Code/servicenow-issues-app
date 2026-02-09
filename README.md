@@ -12,6 +12,16 @@ This application provides a complete solution for reporting and tracking safety 
 
 ---
 
+## 📸 Screenshots
+
+### Service Catalog - Report a Safety Issue
+![Service Catalog Form](screenshots/service-catalog-form.png)
+
+### Issues List View
+![Issues List](screenshots/issues-list.png)
+
+---
+
 ## 💼 Skills Demonstrated
 
 | Skill Area | Implementation |
