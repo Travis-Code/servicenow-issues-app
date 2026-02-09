@@ -24,6 +24,9 @@ This application provides a complete solution for reporting and tracking safety 
 ### Issues List View
 ![Issues List](screenshots/issues-list.png)
 
+### Flow Designer - Issue Assignment Automation
+![Flow Designer](screenshots/flow-designer.png)
+
 ---
 
 ## 💼 Skills Demonstrated
@@ -55,7 +58,9 @@ This application provides a complete solution for reporting and tracking safety 
   - Category: "Can We Help You?"
   
 ### Logic & Automation (1)
-- **Issue Assignment Flow** - Automated workflow for issue routing
+- **Safety Issue Assignment Flow**
+  - Trigger: Issues Created or Updated (where Category is Big)
+  - Action: Update Issues Record (auto-assignment)
 
 ### Security (2)
 - **user** - Default user role for submitting and viewing issues
